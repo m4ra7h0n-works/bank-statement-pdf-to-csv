@@ -1,0 +1,13 @@
+{
+  "description": "Extract two common transaction layouts from multi-page text bank statement PDFs to CSV; no OCR.",
+  "topics": [
+    "python",
+    "bank-statement-pdf-to-csv",
+    "pdf-to-csv",
+    "bank-statement",
+    "text-extraction",
+    "cli",
+    "accounting",
+    "converter"
+  ]
+}
