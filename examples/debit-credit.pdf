@@ -1,0 +1,55 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 417 >>
+stream
+BT /F1 9 Tf 30 750 Td 18 TL
+(Fictional Community Bank - Sample checking statement) Tj T*
+(Statement period: January 2026) Tj T*
+(Date        Description                          Debit      Credit       Balance) Tj T*
+(01/02/2026  Sample supplies                      12.50                    987.50) Tj T*
+(01/03/2026  Sample refund                                   100.00      1,087.50) Tj T*
+(Page 1 of 2) Tj T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 273 >>
+stream
+BT /F1 9 Tf 30 750 Td 18 TL
+(Fictional Community Bank - Continued) Tj T*
+(Date        Description                          Debit      Credit       Balance) Tj T*
+(01/05/2026  Sample fee                            5.00                  1,082.50) Tj T*
+(Page 2 of 2) Tj T*
+ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000189 00000 n 
+0000000315 00000 n 
+0000000783 00000 n 
+0000000909 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+1233
+%%EOF
