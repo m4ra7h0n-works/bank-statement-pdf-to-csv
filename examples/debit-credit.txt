@@ -1,0 +1,11 @@
+Fictional Community Bank - Sample checking statement
+Statement period: January 2026
+Date        Description                          Debit      Credit       Balance
+01/02/2026  Sample supplies                      12.50                    987.50
+01/03/2026  Sample refund                                   100.00      1,087.50
+Page 1 of 2
+
+Fictional Community Bank - Continued
+Date        Description                          Debit      Credit       Balance
+01/05/2026  Sample fee                            5.00                  1,082.50
+Page 2 of 2
