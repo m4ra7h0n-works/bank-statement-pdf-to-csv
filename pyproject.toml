@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bank-statement-pdf-to-csv"
+version = "0.1.0"
+description = "Extract two common transaction layouts from multi-page text bank statement PDFs to CSV; no OCR."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Zijian Xiao"}]
+dependencies = ["pypdf>=5,<8"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["bank_statement_pdf_to_csv*"]
