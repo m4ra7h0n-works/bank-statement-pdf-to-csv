@@ -2,6 +2,35 @@
 
 Extract date, description and amount from multi-page text bank statements in two common table layouts.
 
+## Example
+
+The fictional input below is a text excerpt from [statement.pdf](examples/statement.pdf); [statement.txt](examples/statement.txt) contains its source text.
+
+Input ([full file](examples/statement.pdf)):
+
+```text
+Synthetic statement - January 2026
+Date Description Amount
+2026-01-02 Sample supplies -12.50
+2026-01-03 Sample refund 100.00
+```
+
+Run from the repository after installation (choose a new output path):
+
+```sh
+python -m bank_statement_pdf_to_csv examples/statement.pdf transactions.csv
+```
+
+Actual CLI output ([full generated file](examples/example-output.csv)):
+
+```csv
+date,description,amount
+2026-01-02,Sample supplies,-12.50
+2026-01-03,Sample refund,100.00
+```
+
+Need XLSX, balance checks or previews? Use the online version: <https://bankxl.pivlu.com/?utm_source=github&utm_medium=readme&utm_campaign=bank-statement-pdf-to-csv&utm_content=p111203>
+
 ## Install
 
 Python 3.10 or newer. From this repository:
@@ -69,7 +98,7 @@ Date        Description                          Debit      Credit       Balance
 
 ## Online version
 
-[BankXL online](https://bankxl.pivlu.com/?utm_source=github&utm_medium=readme&utm_campaign=bank-statement-pdf-to-csv) is a separate online version by the same author, Zijian Xiao. The online version requires no local installation and adds a preview with editable rows and balance checks where source balances are available. OCR results and complex layouts still need checking; handwriting, blurred scans and decimal-comma amounts are unsupported.
+[BankXL online](https://bankxl.pivlu.com/?utm_source=github&utm_medium=readme&utm_campaign=bank-statement-pdf-to-csv&utm_content=p111203) is a separate online version by the same author, Zijian Xiao. The online version requires no local installation and adds a preview with editable rows and balance checks where source balances are available. OCR results and complex layouts still need checking; handwriting, blurred scans and decimal-comma amounts are unsupported.
 
 Current online free allowance (product information dated November 10, 2026):
 
